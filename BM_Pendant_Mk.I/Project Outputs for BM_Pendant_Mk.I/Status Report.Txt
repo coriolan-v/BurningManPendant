@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [BM_Pendant_Mk.I.PrjPcb]
+   Generated File[Pendant2.GTO]
+   Generated File[Pendant2.GTP]
+   Generated File[Pendant2.GTS]
+   Generated File[Pendant2.GTL]
+   Generated File[Pendant2.GBL]
+   Generated File[Pendant2.GBS]
+   Generated File[Pendant2.GBP]
+   Generated File[Pendant2.GBO]
+   Generated File[Pendant2.GM3]
+   Generated File[Pendant2.RUL]
+   Generated File[Pendant2.EXTREP]
+   Generated File[Pendant2.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 21:00:37 On 06/08/2023
