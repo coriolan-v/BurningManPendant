@@ -1,0 +1,24 @@
+Added Pin To Net: NetName=NetIC6_3 Pin=IC6-3
+Added Pin To Net: NetName=NetIC6_3 Pin=IC7-1
+Added Pin To Net: NetName=NetIC6_3 Pin=IC7-5
+Added Net: Name=NetIC6_3
+Added Pin To Net: NetName=NetIC7_3 Pin=IC7-3
+Added Pin To Net: NetName=NetIC7_3 Pin=IC8-1
+Added Pin To Net: NetName=NetIC7_3 Pin=IC8-5
+Added Net: Name=NetIC7_3
+Added Pin To Net: NetName=NetIC8_3 Pin=IC8-3
+Added Pin To Net: NetName=NetIC8_3 Pin=IC9-1
+Added Pin To Net: NetName=NetIC8_3 Pin=IC9-5
+Added Net: Name=NetIC8_3
+Added Pin To Net: NetName=NetIC9_3 Pin=IC9-3
+Added Pin To Net: NetName=NetIC9_3 Pin=IC10-1
+Added Pin To Net: NetName=NetIC9_3 Pin=IC10-5
+Added Net: Name=NetIC9_3
+Added Pin To Net: NetName=NetIC10_3 Pin=IC10-3
+Added Pin To Net: NetName=NetIC10_3 Pin=IC11-1
+Added Pin To Net: NetName=NetIC10_3 Pin=IC11-5
+Added Net: Name=NetIC10_3
+Added Pin To Net: NetName=NetIC11_3 Pin=IC11-3
+Added Pin To Net: NetName=NetIC11_3 Pin=IC12-1
+Added Pin To Net: NetName=NetIC11_3 Pin=IC12-5
+Added Net: Name=NetIC11_3
