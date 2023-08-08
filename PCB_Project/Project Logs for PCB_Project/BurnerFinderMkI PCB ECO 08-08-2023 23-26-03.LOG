@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=VBA Pin=J?-1
+Added Pin To Net: NetName=VBAT_SW Pin=J?-2
+Added Net: Name=VBAT_SW
+Added Member To Class: ClassName=BurnerFinder Member=Component J? SK-3296S-01-L1
