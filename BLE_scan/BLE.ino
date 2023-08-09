@@ -15,5 +15,7 @@ void scanBLE()
   Serial.println(foundDevices.getCount());
   Serial.println("Scan done!");
   pBLEScan->clearResults();   // delete results fromBLEScan buffer to release memory
-  delay(2000);
+  //delay(2000);
+
+  turnLEDon(ledID, 0xFF0000);
 }

@@ -1,0 +1,39 @@
+Altium Designer Pick and Place Locations
+C:\Users\Coriolan\Documents\GitHub\BurningManPendant\PCB_Project\Project Outputs for BurnerFinderMk.I\Pick Place for BurnerFinderMkI.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       09/08/23
+Time:       20:28
+Revision:   8f075dec37bd672c099c468950b920e90906bada
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"C1","04023A0R8CAT2A","TopLayer","CAPC1005X56N","105.0290","60.1980","0","Capacitor"
+"C2","04023A0R8CAT2A","TopLayer","CAPC1005X56N","116.8400","57.1500","330","Capacitor"
+"C3","04023A0R8CAT2A","TopLayer","CAPC1005X56N","125.5050","48.7767","300","Capacitor"
+"C4","04023A0R8CAT2A","TopLayer","CAPC1005X56N","128.5240","36.7030","270","Capacitor"
+"C5","04023A0R8CAT2A","TopLayer","CAPC1005X56N","125.4760","25.0190","240","Capacitor"
+"C6","04023A0R8CAT2A","TopLayer","CAPC1005X56N","116.7130","16.3830","210","Capacitor"
+"C7","04023A0R8CAT2A","TopLayer","CAPC1005X56N","105.0870","13.2080","180","Capacitor"
+"C8","04023A0R8CAT2A","TopLayer","CAPC1005X56N","93.2093","16.3540","150","Capacitor"
+"C9","04023A0R8CAT2A","TopLayer","CAPC1005X56N","84.7090","25.0190","120","Capacitor"
+"C10","04023A0R8CAT2A","TopLayer","CAPC1005X56N","81.5340","36.7030","90","Capacitor"
+"C11","04023A0R8CAT2A","TopLayer","CAPC1005X56N","84.5820","48.6410","60","Capacitor"
+"C12","04023A0R8CAT2A","TopLayer","CAPC1005X56N","93.2180","57.0230","30","Capacitor"
+"IC1","SK6812_SIDE-A","TopLayer","SK6812SIDEA","104.9020","58.6845","0","Integrated Circuit"
+"IC2","SK6812_SIDE-A","TopLayer","SK6812SIDEA","115.9115","55.9046","330","Integrated Circuit"
+"IC3","SK6812_SIDE-A","TopLayer","SK6812SIDEA","123.9766","47.9665","300","Integrated Circuit"
+"IC4","SK6812_SIDE-A","TopLayer","SK6812SIDEA","127.0105","36.8300","270","Integrated Circuit"
+"IC5","SK6812_SIDE-A","TopLayer","SK6812SIDEA","124.2306","25.8205","240","Integrated Circuit"
+"IC6","SK6812_SIDE-A","TopLayer","SK6812SIDEA","116.1478","17.6860","210","Integrated Circuit"
+"IC7","SK6812_SIDE-A","TopLayer","SK6812SIDEA","105.1560","14.7215","180","Integrated Circuit"
+"IC8","SK6812_SIDE-A","TopLayer","SK6812SIDEA","94.0195","17.6284","150","Integrated Circuit"
+"IC9","SK6812_SIDE-A","TopLayer","SK6812SIDEA","85.9544","25.6935","120","Integrated Circuit"
+"IC10","SK6812_SIDE-A","TopLayer","SK6812SIDEA","82.9205","36.5760","90","Integrated Circuit"
+"IC11","SK6812_SIDE-A","TopLayer","SK6812SIDEA","85.8274","47.5855","60","Integrated Circuit"
+"IC12","SK6812_SIDE-A","TopLayer","SK6812SIDEA","93.8925","55.7776","30","Integrated Circuit"
+"J?","SK-3296S-01-L1","BottomLayer","SK3296S01L1","89.1953","13.6874","145","Connector"
+"J?","S2B-PH-SM4-TB_LF__SN_","BottomLayer","S2BPHSM4TBLFSN","89.2810","24.8980","180","Connector"

@@ -6,10 +6,12 @@ RTC_DATA_ATTR int bootCount = 0;
 
 void setupSleep()
 {
- esp_sleep_enable_timer_wakeup(TIME_TO_SLEEP * uS_TO_S_FACTOR);
-  Serial.println("Setup ESP32 to sleep for every "
-    + String(TIME_TO_SLEEP)
-    + " Seconds");
+//  esp_sleep_enable_timer_wakeup(TIME_TO_SLEEP * uS_TO_S_FACTOR);
+//   Serial.println("Setup ESP32 to sleep for every "
+//     + String(TIME_TO_SLEEP)
+//     + " Seconds");
+
+    
 }
 
 void print_wakeup_reason() {

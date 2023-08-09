@@ -14,16 +14,24 @@ class MyAdvertisedDeviceCallbacks: public BLEAdvertisedDeviceCallbacks {
     }
 };
 
+RTC_DATA_ATTR int ledID = 0;
+
 void setup() {
   Serial.begin(115200);
 
-  setupSleep();
+ // setupSleep();
 
   initBLE();
 
-
+  initLEDs();
 }
 
 void loop() {
   scanBLE();
+
+  ++ledID;
+  Serial.println("ledID number: " + String(ledID));
+
+  esp_sleep_enable_timer_wakeup(3000000); // 1 sec
+  esp_deep_sleep_start(); 
 }

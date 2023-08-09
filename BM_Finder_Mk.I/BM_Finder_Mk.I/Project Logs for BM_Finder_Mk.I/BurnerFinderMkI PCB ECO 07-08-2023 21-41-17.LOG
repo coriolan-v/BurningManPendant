@@ -1,5 +1,0 @@
-Added Pin To Net: NetName=GND Pin=IC1-3
-Added Pin To Net: NetName=GND Pin=IC2-1
-Added Pin To Net: NetName=DIN Pin=IC1-1
-Added Net: Name=DIN
-Added Member To Class: ClassName=BurnerFinder Member=Component IC6 SK6812_SIDE-A
