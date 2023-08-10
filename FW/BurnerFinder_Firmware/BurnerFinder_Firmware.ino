@@ -19,8 +19,6 @@ RTC_DATA_ATTR int ledID = 0;
 void setup() {
   Serial.begin(115200);
 
- // setupSleep();
-
   initBLE();
 
   initLEDs();
