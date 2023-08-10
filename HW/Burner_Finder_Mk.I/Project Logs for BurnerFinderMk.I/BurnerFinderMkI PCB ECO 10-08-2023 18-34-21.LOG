@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=VBA Pin=J?-1
+Added Component: Designator=S?(JS202011JAQN)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "JS202011JAQN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/js202011jaqn/ck?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ckswitches.com/media/1422/js.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "C & K COMPONENTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "JS202011JAQN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "611-JS202011JAQN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/CK/JS202011JAQN?qs=74EMXstkWMXDMLzbTlF50w%3D%3D"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=BurnerFinder Member=Component S? JS202011JAQN

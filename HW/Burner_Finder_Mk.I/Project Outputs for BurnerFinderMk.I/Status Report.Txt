@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [BurnerFinderMk.I.PrjPcb]
+   Generated File[BurnerFinderMkI.GTO]
+   Generated File[BurnerFinderMkI.GTP]
+   Generated File[BurnerFinderMkI.GTS]
+   Generated File[BurnerFinderMkI.GTL]
+   Generated File[BurnerFinderMkI.GBL]
+   Generated File[BurnerFinderMkI.GBS]
+   Generated File[BurnerFinderMkI.GBP]
+   Generated File[BurnerFinderMkI.GBO]
+   Generated File[BurnerFinderMkI.GM3]
+   Generated File[BurnerFinderMkI.RUL]
+   Generated File[BurnerFinderMkI.EXTREP]
+   Generated File[BurnerFinderMkI.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 21:27:38 On 10/08/2023

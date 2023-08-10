@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=VBA Pin=S?-3
+Added Pin To Net: NetName=VBA Pin=S?-6
+Added Pin To Net: NetName=NetS?_2 Pin=S?-2
+Added Pin To Net: NetName=NetS?_2 Pin=S?-5
+Added Net: Name=NetS?_2
+Added Pin To Net: NetName=VBAT_SW Pin=S?-1
+Added Pin To Net: NetName=VBAT_SW Pin=S?-4
+Added Net: Name=VBAT_SW
+Added Member To Class: ClassName=BurnerFinder Member=Component J? S2B-PH-SM4-TB_LF__SN_
