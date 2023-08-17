@@ -17,5 +17,5 @@ void scanBLE()
   pBLEScan->clearResults();   // delete results fromBLEScan buffer to release memory
   //delay(2000);
 
-  turnLEDon(ledID, 0xFF0000);
+  turnLEDon(counter, 0xFF0000);
 }
