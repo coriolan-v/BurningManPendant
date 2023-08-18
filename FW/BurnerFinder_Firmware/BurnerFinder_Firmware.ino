@@ -1,18 +1,6 @@
 #define UNIQUE_BURNER_ID 1
 
-#include <BLEDevice.h>
-#include <BLEUtils.h>
-#include <BLEScan.h>
-#include <BLEAdvertisedDevice.h>
-
-#include <Preferences.h>
-Preferences preferences;
-unsigned int counter;
-
-int sleepTimeuS = 3000000;
-
-
-//RTC_DATA_ATTR int ledID = 0;
+int sleepTimeS = 3;
 
 void setup() {
   Serial.begin(115200);
@@ -22,27 +10,30 @@ void setup() {
   initBLE();
 
   initLEDs();
+  //pixels.clear(); // Set all pixel colors to 'off'
+
+  fadeOnOff();
 }
 
 void loop() {
 
   //fadeLEDon(1, 0xff0000);
 
-   scanBLE();
+  scanBLE();
 
-   fadeOnOff();
+  fadeOnOff();
 
-//  counter++;
-//    preferences.putUInt("counter", counter);
-//   // Close the Preferences
-//   preferences.end();
 
- 
 
-//   //Serial.println("ledID number: " + String(ledID));
+  //   Serial.print("Sleepig now for "); Serial.print(sleepTimeS);  Serial.println("seconds");
+  //   delay(1000);
 
-  Serial.print("Sleepig now for "); Serial.println(sleepTimeuS / 1000000);  Serial.println("s");
+  //   Serial.flush();
+  //   Serial.end();
 
-   esp_sleep_enable_timer_wakeup(sleepTimeuS); // 1 sec
-   esp_deep_sleep_start(); 
+  //    esp_sleep_enable_timer_wakeup(sleepTimeS * 1000000); // 1 sec
+  //    esp_deep_sleep_start();
 }
+
+int numFindersFound = 0;
+

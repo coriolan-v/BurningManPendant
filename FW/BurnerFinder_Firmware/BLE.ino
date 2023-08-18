@@ -1,3 +1,8 @@
+#include <BLEDevice.h>
+#include <BLEUtils.h>
+#include <BLEScan.h>
+#include <BLEAdvertisedDevice.h>
+
 int scanTime = 5; //In seconds
 BLEScan* pBLEScan;
 
@@ -8,17 +13,21 @@ class MyAdvertisedDeviceCallbacks: public BLEAdvertisedDeviceCallbacks {
 };
 
 void initBLE(){
+  Serial.print("Init BLE... ");
   BLEDevice::init("");
   pBLEScan = BLEDevice::getScan(); //create new scan
   pBLEScan->setAdvertisedDeviceCallbacks(new MyAdvertisedDeviceCallbacks());
   pBLEScan->setActiveScan(true); //active scan uses more power, but get results faster
   pBLEScan->setInterval(100);
   pBLEScan->setWindow(99);  // less or equal setInterval value
+  Serial.println("Done Init BLE");
 }
 
-int numFindersFound = 0;
+
 void scanBLE()
 {
+  numFindersFound= 0;
+  
   Serial.print("Scanning...");
     // put your main code here, to run repeatedly:
   BLEScanResults foundDevices = pBLEScan->start(scanTime, false);
@@ -88,11 +97,11 @@ void scanBLE()
 
    Serial.print("Total finders found: "); Serial.println(numFindersFound);
 
-  numFindersFound= 0;
+  
   
 
   pBLEScan->clearResults();   // delete results fromBLEScan buffer to release memory
   //delay(2000);
 
-  turnLEDon(counter, 0xFF0000);
+  //turnLEDon(counter, 0xFF0000);
 }
