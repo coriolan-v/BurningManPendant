@@ -23,6 +23,11 @@ void initBLE(){
   Serial.println("Done Init BLE");
 }
 
+void stopBLE()
+{
+   BLEDevice::deinit(true);
+}
+
 
 void scanBLE()
 {

@@ -25,14 +25,16 @@ void loop() {
 
 
 
-  //   Serial.print("Sleepig now for "); Serial.print(sleepTimeS);  Serial.println("seconds");
-  //   delay(1000);
+    Serial.print("Sleepig now for "); Serial.print(sleepTimeS);  Serial.println("seconds");
+    delay(1000);
 
-  //   Serial.flush();
-  //   Serial.end();
+    Serial.flush();
+    Serial.end();
 
-  //    esp_sleep_enable_timer_wakeup(sleepTimeS * 1000000); // 1 sec
-  //    esp_deep_sleep_start();
+     stopBLE();
+
+     esp_sleep_enable_timer_wakeup(sleepTimeS * 1000000);
+     esp_deep_sleep_start();
 }
 
 int numFindersFound = 0;
