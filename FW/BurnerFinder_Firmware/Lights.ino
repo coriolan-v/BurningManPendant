@@ -13,7 +13,7 @@ Adafruit_NeoPixel pixel(NUM_PIXELS, PIN_NEOPIXEL, NEO_GRB);
 void initLEDs() {
   //FastLED.addLeds<WS2811, PIN_NEOPIXEL, RGB>(leds, NUM_PIXELS);
   pixel.begin();  // INITIALIZE NeoPixel
-  pixel.setBrightness(30);
+  pixel.setBrightness(100);
   //FastLED.setBrightness(100);
 }
 
