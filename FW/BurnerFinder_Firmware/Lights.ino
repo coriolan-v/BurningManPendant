@@ -13,7 +13,7 @@ Adafruit_NeoPixel pixel(NUM_PIXELS, PIN_NEOPIXEL, NEO_GRB);
 void initLEDs() {
   //FastLED.addLeds<WS2811, PIN_NEOPIXEL, RGB>(leds, NUM_PIXELS);
   pixel.begin();  // INITIALIZE NeoPixel
-  pixel.setBrightness(100);
+  pixel.setBrightness(30);
   //FastLED.setBrightness(100);
 }
 
@@ -129,4 +129,56 @@ void fadeOnOff() {
   }
 
   Serial.println("fading done");
+}
+
+unsigned long pixelPrevious = 0;        // Previous Pixel Millis
+unsigned long patternPrevious = 0;      // Previous Pattern Millis
+int           patternCurrent = 0;       // Current Pattern Number
+int           patternInterval = 5000;   // Pattern Interval (ms)
+int           pixelInterval = 50;       // Pixel Interval (ms)
+int           pixelQueue = 0;           // Pattern Pixel Queue
+int           pixelCycle = 0;           // Pattern Pixel Cycle
+uint16_t      pixelCurrent = 0;         // Pattern Current Pixel Number
+uint16_t      pixelNumber = NUM_PIXELS;  // Total Number of Pixels
+
+void rainbowEffect()
+{
+  unsigned long currentMillis = millis(); 
+  if(currentMillis - pixelPrevious >= pixelInterval) {        //  Check for expired time
+    pixelPrevious = currentMillis;  
+    rainbow(10);
+  }
+}
+
+void rainbow(uint8_t wait) {
+
+
+
+  if(pixelInterval != wait)
+    pixelInterval = wait;          
+    for(int j=0; j<256*5; j++) { // 5 cycles of all colors on wheel         
+  for(uint16_t i=0; i < pixelNumber; i++) {
+    //pixel.setPixelColor(i, Wheel((i + pixelCycle) & 255)); //  Update delay time  
+    pixel.setPixelColor(i, Wheel(((i * 256 / pixel.numPixels()) + j) & 255));
+  }
+    }
+  pixel.show();                             //  Update strip to match
+  pixelCycle++;                             //  Advance current cycle
+  if(pixelCycle >= 256)
+    pixelCycle = 0;                         //  Loop the cycle back to the begining
+}
+
+// Input a value 0 to 255 to get a color value.
+// The colours are a transition r - g - b - back to r.
+uint32_t Wheel(byte WheelPos) {
+  WheelPos = 255 - WheelPos;
+  if(WheelPos < 85) {
+    return pixel.Color(255 - WheelPos * 3, 0, WheelPos * 3);
+  }
+  if(WheelPos < 170) {
+    WheelPos -= 85;
+    return pixel.Color(0, WheelPos * 3, 255 - WheelPos * 3);
+  }
+  WheelPos -= 170;
+  return pixel.Color(WheelPos * 3, 255 - WheelPos * 3, 0);
 }

@@ -4,7 +4,7 @@ int sleepTimeS = 3;
 
 void setup() {
   Serial.begin(115200);
-  delay(3000);
+  //delay(3000);
   Serial.println();
 
   //initBLE();
@@ -12,7 +12,7 @@ void setup() {
   initLEDs();
   //pixels.clear(); // Set all pixel colors to 'off'
 
-  fadeOnOff();
+ // fadeOnOff();
 }
 
 void loop() {
@@ -21,7 +21,10 @@ void loop() {
 
   //scanBLE();
 
-  fadeOnOff();
+  //fadeOnOff();
+
+
+  rainbowEffect();
 
 
 
