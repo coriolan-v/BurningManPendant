@@ -156,12 +156,6 @@ int rainbowCycleCycles = 0;
 
 void rainbowEffect()
 {
-  // unsigned long currentMillis = millis(); 
-  // if(currentMillis - pixelPrevious >= pixelInterval) {        //  Check for expired time
-  //   pixelPrevious = currentMillis;  
-  //   rainbow(10);
-  // }
-
   if ((unsigned long)(millis() - rainbowCyclesPreviousMillis) >= pixelsInterval) {
             rainbowCyclesPreviousMillis = millis();
             rainbowCycle();

@@ -1,3 +1,5 @@
+#include <bluefruit.h>
+
 #define UNIQUE_BURNER_ID 1
 
 //https://github.com/ndsh/neopixel-without-delay/blob/master/strandtest_nodelay/strandtest_nodelay.ino
@@ -9,9 +11,11 @@ void setup() {
   //delay(3000);
   Serial.println();
 
-  //initBLE();
-
   initLEDs();
+
+  setupBLE();
+
+  
   //pixels.clear(); // Set all pixel colors to 'off'
 
  // fadeOnOff();
@@ -40,6 +44,11 @@ void loop() {
 
     //  esp_sleep_enable_timer_wakeup(sleepTimeS * 1000000);
     //  esp_deep_sleep_start();
+
+      //Serial.begin(115200);
+  //while ( !Serial ) delay(10);   // for nrf52840 with native usb
+
+ 
 }
 
 int numFindersFound = 0;
