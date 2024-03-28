@@ -1,0 +1,66 @@
+Change Component Comment : Designator=IC? Old Comment=NE555DT New Comment=ATTINY25-20SSU
+Change component parameters: Designator = "IC?" ("IC?"); Footprint = "SOIC127P600X175-8N"; UniqueID = "\VOJUAXRS" ("\VOJUAXRS")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "ATTINY25-20SSU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/attiny25-20ssu/microchip-technology?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.75mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Microchip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ATTINY25-20SSU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "556-ATTINY25-20SSU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY25-20SSU?qs=W7X4MxMep4%2FZkAO8oc8Rxw%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC0603X33N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "02013A120GAT2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/02013a120gat2a/avx"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.mouser.com/catalog/supplier/library/pdf/AVXSurfaceMountCeramic.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.33mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "02013A120GAT2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "581-02013A120GAT2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=581-02013A120GAT2A"; VariantName = "[No Variations]"
+Added Component: Designator=LED?(T36K3BGR05D000121U1930)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://media.digikey.com/pdf/Data%20Sheets/Harvatek%20PDFs/T36K3BGR-05D000121U1930%20V1.1.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.95mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Harvatek"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "T36K3BGR-05D000121U1930"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "CPF0603B10KE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cpf0603b10ke/te-connectivity?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.farnell.com/datasheets/1786775.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CPF0603B10KE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "279-CPF0603B10KE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CPF0603B10KE?qs=DfH2yQaBz6sBU3bWyKu9NQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "CPF0603B10KE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cpf0603b10ke/te-connectivity?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.farnell.com/datasheets/1786775.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CPF0603B10KE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "279-CPF0603B10KE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CPF0603B10KE?qs=DfH2yQaBz6sBU3bWyKu9NQ%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=C?-2
+Added Pin To Net: NetName=+5 Pin=IC?-1
+Added Pin To Net: NetName=+5 Pin=IC?-8
+Added Pin To Net: NetName=+5 Pin=U?-1
+Added Pin To Net: NetName=+5 Pin=U?-3
+Added Net: Name=+5
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=IC?-4
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetIC?_3 Pin=IC?-3
+Added Pin To Net: NetName=NetIC?_3 Pin=R?-2
+Added Net: Name=NetIC?_3
+Added Pin To Net: NetName=NetIC?_6 Pin=IC?-6
+Added Pin To Net: NetName=NetIC?_6 Pin=R?-1
+Added Net: Name=NetIC?_6
+Added Member To Class: ClassName=Sheet1 Member=Component C? 02013A120GAT2A
+Added Member To Class: ClassName=Sheet1 Member=Component LED? T36K3BGR-05D000121U1930
+Added Member To Class: ClassName=Sheet1 Member=Component R? CPF0603B10KE
+Added Member To Class: ClassName=Sheet1 Member=Component R? CPF0603B10KE

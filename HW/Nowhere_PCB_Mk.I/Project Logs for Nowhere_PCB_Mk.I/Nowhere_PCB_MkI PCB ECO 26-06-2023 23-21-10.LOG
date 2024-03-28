@@ -1,0 +1,34 @@
+Added Component: Designator=R?(RESC1608X55N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "CPF0603B10KE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cpf0603b10ke/te-connectivity?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.farnell.com/datasheets/1786775.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CPF0603B10KE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "279-CPF0603B10KE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CPF0603B10KE?qs=DfH2yQaBz6sBU3bWyKu9NQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "CPF0603B10KE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cpf0603b10ke/te-connectivity?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.farnell.com/datasheets/1786775.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CPF0603B10KE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "279-CPF0603B10KE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CPF0603B10KE?qs=DfH2yQaBz6sBU3bWyKu9NQ%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=LED?-3
+Added Pin To Net: NetName=B Pin=LED?-1
+Added Net: Name=B
+Added Pin To Net: NetName=GREE Pin=LED?-4
+Added Net: Name=GREE
+Added Pin To Net: NetName=NetIC?_5 Pin=IC?-5
+Added Pin To Net: NetName=NetIC?_5 Pin=R?-1
+Added Net: Name=NetIC?_5
+Added Pin To Net: NetName=OUTSIDE Pin=R?-1
+Added Net: Name=OUTSIDE
+Added Pin To Net: NetName=R Pin=LED?-2
+Added Net: Name=R
+Added Member To Class: ClassName=Sheet1 Member=Component LED? IN-P32TRRRGB
+Added Member To Class: ClassName=Sheet1 Member=Component R? CPF0603B10KE
+Added Member To Class: ClassName=Sheet1 Member=Component R? CPF0603B10KE
+Added Member To Class: ClassName=Sheet1 Member=Component R? CPF0603B10KE

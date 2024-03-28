@@ -1,0 +1,11 @@
+Added Component: Designator=LED?(INP32TRRRGB)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "IN-P32TRRRGB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/in-p32trrrgb/inolux-corporation?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Reverse%20Mount/IN-P32TRRRGB_V1.2.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.17mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Inolux"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IN-P32TRRRGB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "743-IN-P32TRRRGB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Inolux/IN-P32TRRRGB?qs=stqOd1AaK7%252BDecAY%252B9SBpg%3D%3D"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Sheet1 Member=Component LED? IN-P32TRRRGB
+Added Member To Class: ClassName=Sheet1 Member=Component R? CPF0603B10KE
