@@ -2,6 +2,18 @@
 FileName = Nest24_Pendant.GBR
 AutoAperture = True
 *************************************************************
+Generating : Board Shape
+      File : Nest24_Pendant.GM3
+
+    Adding Layer      : Board Shape
+
+
+Used DCodes :
+    D13
+    D14
+*************************************************************
+
+*************************************************************
 Generating : Bottom Overlay
       File : Nest24_Pendant.GBO
 
@@ -9,20 +21,21 @@ Generating : Bottom Overlay
 
 
 Used DCodes :
-    D12
+    D13
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : Nest24_Pendant.GTO
+Generating : Bottom Paste
+      File : Nest24_Pendant.GBP
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
-    D11
-    D12
 *************************************************************
 
 *************************************************************
@@ -56,33 +69,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : Nest24_Pendant.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : Nest24_Pendant.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
 Generating : Top Paste
       File : Nest24_Pendant.GTP
 
@@ -97,13 +83,15 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Board Shape
-      File : Nest24_Pendant.GM3
+Generating : Top Overlay
+      File : Nest24_Pendant.GTO
 
-    Adding Layer      : Board Shape
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
+    D10
+    D11
     D12
     D13
 *************************************************************
@@ -113,6 +101,19 @@ Generating : Bottom Layer
       File : Nest24_Pendant.GBL
 
     Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : Nest24_Pendant.GTL
+
+    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
