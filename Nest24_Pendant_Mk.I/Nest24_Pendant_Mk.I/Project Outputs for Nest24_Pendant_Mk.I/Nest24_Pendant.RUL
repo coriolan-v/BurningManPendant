@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\Coriolan\Documents\GitHub\BurningManPendant\HW\Nest24_Pendant_Mk.I\Nest24_Pendant_Mk.I\Nest24_Pendant.PcbDoc
+DRC Rules Export File for PCB: C:\Users\Coriolan\Documents\GitHub\BurningManPendant\Nest24_Pendant_Mk.I\Nest24_Pendant_Mk.I\Nest24_Pendant.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
