@@ -2,21 +2,14 @@
 FileName = Nowhere_PCB_MkI_f.GBR
 AutoAperture = True
 *************************************************************
-Generating : Board
-      File : Nowhere_PCB_MkI_f.GM3
+Generating : Top Paste
+      File : Nowhere_PCB_MkI_f.GTP
 
-    Adding Layer      : Board
+    Adding Layer      : Top Paste
 
+    Adding Layer      : Top Layer
 
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : Nowhere_PCB_MkI_f.GBO
-
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
@@ -29,6 +22,56 @@ Generating : Bottom Paste
     Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : Nowhere_PCB_MkI_f.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Nowhere_PCB_MkI_f.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Board
+      File : Nowhere_PCB_MkI_f.GM3
+
+    Adding Layer      : Board
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Nowhere_PCB_MkI_f.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
@@ -52,34 +95,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : Nowhere_PCB_MkI_f.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : Nowhere_PCB_MkI_f.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
 Generating : Top Overlay
       File : Nowhere_PCB_MkI_f.GTO
 
@@ -92,25 +107,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Layer
-      File : Nowhere_PCB_MkI_f.GBL
+Generating : Bottom Overlay
+      File : Nowhere_PCB_MkI_f.GBO
 
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : Nowhere_PCB_MkI_f.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
